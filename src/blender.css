@@ -1,0 +1,111 @@
+.main {
+  width: 100%;
+  padding: 20px;
+}
+
+.content-menu {
+  height: 60px;
+  padding: 30px;
+}
+
+aside {
+  width: 10%;
+  border-right: 2px solid darkgray;
+}
+
+.sidebar-icons-group {
+  top: 15%;
+  border-bottom: 1px dashed purple;
+}
+
+.sidebar-boxes {
+  height: 80px;
+  border-top: 1px dashed purple;
+  line-height: 80px;
+  text-align: center;
+  color: purple;
+}
+
+.circle {
+  border-radius: 50%;
+  border: 1px solid purple;
+  color: purple;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 10px;
+}
+
+.btn {
+  outline: none;
+}
+
+.modal-dialog {
+  width: 450px;
+  color: purple;
+}
+
+.modal.right.fade .modal-dialog {
+  -webkit-transform: translate3d(100%, 0, 0);
+          transform: translate3d(100%, 0, 0);
+  -webkit-transition: -webkit-transform 0.3s ease-in;
+  transition: -webkit-transform 0.3s ease-in;
+  transition: transform 0.3s ease-in;
+  transition: transform 0.3s ease-in, -webkit-transform 0.3s ease-in;
+}
+
+.modal.right.show .modal-dialog {
+  -webkit-transform: translate3d(75%, 0, 0);
+          transform: translate3d(75%, 0, 0);
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  transition: -webkit-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+}
+
+.modal-content {
+  height: 500px;
+}
+
+.quiz {
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.quiz .header {
+  height: 10vh;
+  font-size: 24px;
+  color: skyblue;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid darkgray;
+}
+
+.quiz .content {
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* .quiz .footer {
+  height:10vh;
+} */
+/*# sourceMappingURL=blender.css.map */

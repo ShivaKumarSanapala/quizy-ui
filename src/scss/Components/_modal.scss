@@ -1,0 +1,15 @@
+.modal-dialog{
+    width:450px;
+    color:purple;
+}
+.modal.right.fade .modal-dialog{
+    transform:translate3d(100%,0,0);
+    transition:transform 0.3s ease-in;
+}
+.modal.right.show .modal-dialog{
+    transform:translate3d(75%,0,0);
+    transition:transform 0.3s ease-out;
+}
+.modal-content{
+    height:500px;
+}
